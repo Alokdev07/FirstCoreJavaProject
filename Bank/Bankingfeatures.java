@@ -39,7 +39,7 @@ interface NormalBank {
      * if you want to apply atm you have to give your
      * passbook details,some information about which bank you create your atm etc
      */
-    public void CreateAccount() throws BankingException;
+    public  void CreateAccount() throws BankingException;
 }
 /*
  * this exception is used for checked exception wheere the user give some 
